@@ -12,8 +12,10 @@
 
 <div class="overlay">
 
+  <!-- BOITE GAUCHE -->
   <div class="left-box">
-    <img src="https://drive.google.com/uc?export=view&id=14rCWOOKxtK8H0cl9X2mjt2HZfPAgu52n">
+
+    <img src="https://drive.google.com/uc?export=view&id=14rCWOOKxtK8H0cl9X2mjt2HZfPAgu52n" alt="Logo">
 
     <h1>Business Congo Somba</h1>
 
@@ -21,8 +23,10 @@
       Votre partenaire professionnel pour le suivi des commandes,
       des colis et des marchandises internationales.
     </p>
+
   </div>
 
+  <!-- BOITE CENTRALE -->
   <div class="center-box">
 
     <h2>📦 Suivi de colis</h2>
@@ -33,15 +37,22 @@
     </p>
 
     <div class="search-box">
-      <input type="text" placeholder="Ex: DXB0008">
-      
-      <button onclick="ouvrirSite()">
+
+      <input
+        type="text"
+        id="trackingNumber"
+        placeholder="Ex: DXB0008"
+      >
+
+      <button onclick="rechercherColis()">
         🔎 Rechercher
       </button>
+
     </div>
 
   </div>
 
+  <!-- BOITE DROITE -->
   <div class="right-box">
 
     <h3>⚠️ Rappel important</h3>
